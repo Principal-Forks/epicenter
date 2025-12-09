@@ -1,0 +1,113 @@
+version: "1.0.0"
+name: "Epicenter Component Library"
+
+nodeComponents:
+  # Applications
+  desktop-app:
+    color: "#3B82F6"
+    icon: "MonitorSmartphone"
+    description: "Desktop application (Tauri + Svelte)"
+
+  web-app:
+    color: "#F97316"
+    icon: "Globe"
+    description: "Web application (Astro/SvelteKit)"
+
+  # Frontend layers
+  ui-component:
+    color: "#A855F7"
+    icon: "Layout"
+    description: "UI component library"
+
+  page:
+    color: "#A855F7"
+    icon: "FileText"
+    description: "SvelteKit page/route"
+
+  # Backend/Service layers
+  query-layer:
+    color: "#10B981"
+    icon: "Layers"
+    description: "TanStack Query RPC layer"
+
+  service:
+    color: "#06B6D4"
+    icon: "Cog"
+    description: "Core service (business logic)"
+
+  rust-backend:
+    color: "#EF4444"
+    icon: "Server"
+    description: "Tauri Rust backend"
+
+  # Data layers
+  database:
+    color: "#7C3AED"
+    icon: "Database"
+    description: "Local database (Dexie/IndexedDB)"
+
+  file-system:
+    color: "#8B5CF6"
+    icon: "FolderOpen"
+    description: "File system storage"
+
+  # External integrations
+  cloud-api:
+    color: "#FB923C"
+    icon: "Cloud"
+    description: "External cloud API"
+
+  analytics:
+    color: "#FACC15"
+    icon: "BarChart3"
+    description: "Analytics service"
+
+  # Shared packages
+  shared-lib:
+    color: "#14B8A6"
+    icon: "Package"
+    description: "Shared library package"
+
+edgeComponents:
+  # Data flow
+  invokes:
+    style: "solid"
+    color: "#3B82F6"
+    label: "invokes"
+    description: "Function/command invocation"
+
+  queries:
+    style: "solid"
+    color: "#10B981"
+    label: "queries"
+    description: "Data query"
+
+  mutates:
+    style: "solid"
+    color: "#EF4444"
+    label: "mutates"
+    description: "Data mutation"
+
+  persists:
+    style: "dashed"
+    color: "#7C3AED"
+    label: "persists to"
+    description: "Data persistence"
+
+  integrates:
+    style: "dotted"
+    color: "#FB923C"
+    label: "integrates"
+    description: "External integration"
+
+  depends:
+    style: "dashed"
+    color: "#14B8A6"
+    label: "depends on"
+    description: "Package dependency"
+
+  renders:
+    style: "solid"
+    color: "#A855F7"
+    label: "renders"
+    description: "UI rendering"

@@ -1,0 +1,447 @@
+{
+  "vv": {
+    "name": "Epicenter Architecture",
+    "version": "1.0.0"
+  },
+  "nodes": [
+    {
+      "id": "whispering-app",
+      "text": "Whispering Desktop App",
+      "type": "text",
+      "x": 650,
+      "y": 85,
+      "width": 200,
+      "height": 80,
+      "color": "#3B82F6",
+      "vv": {
+        "nodeType": "desktop-app",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "landing-site",
+      "text": "Landing Site (Astro)",
+      "type": "text",
+      "x": 1050,
+      "y": 85,
+      "width": 200,
+      "height": 80,
+      "color": "#F97316",
+      "vv": {
+        "nodeType": "web-app",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "ui-pages",
+      "text": "SvelteKit Pages\n(routes/)",
+      "type": "text",
+      "x": 50,
+      "y": 385,
+      "width": 200,
+      "height": 80,
+      "color": "#A855F7",
+      "vv": {
+        "nodeType": "page",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "query-rpc",
+      "text": "Query Layer (TanStack Query)\nrpc.*",
+      "type": "text",
+      "x": 49,
+      "y": 629,
+      "width": 200,
+      "height": 80,
+      "color": "#10B981",
+      "vv": {
+        "nodeType": "query-layer",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "transcription-service",
+      "text": "Transcription Service\nCloud/Local/Self-hosted",
+      "type": "text",
+      "x": 462,
+      "y": 877,
+      "width": 180,
+      "height": 80,
+      "color": "#06B6D4",
+      "vv": {
+        "nodeType": "service",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "recorder-service",
+      "text": "Recorder Service",
+      "type": "text",
+      "x": 224,
+      "y": 880,
+      "width": 180,
+      "height": 80,
+      "color": "#06B6D4",
+      "vv": {
+        "nodeType": "service",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "db-service",
+      "text": "Database Service\n(Dexie)",
+      "type": "text",
+      "x": -17,
+      "y": 880,
+      "width": 180,
+      "height": 80,
+      "color": "#06B6D4",
+      "vv": {
+        "nodeType": "service",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "settings-service",
+      "text": "Settings Service\n(Arktype schema)",
+      "type": "text",
+      "x": -253,
+      "y": 882,
+      "width": 180,
+      "height": 80,
+      "color": "#06B6D4",
+      "vv": {
+        "nodeType": "service",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "tauri-backend",
+      "text": "Tauri Backend (Rust)\nRecorder + Transcription",
+      "type": "text",
+      "x": 337,
+      "y": 1053,
+      "width": 200,
+      "height": 80,
+      "color": "#EF4444",
+      "vv": {
+        "nodeType": "rust-backend",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "local-db",
+      "text": "IndexedDB\n(Recordings, Transformations)",
+      "type": "text",
+      "x": -23,
+      "y": 1053,
+      "width": 200,
+      "height": 80,
+      "color": "#7C3AED",
+      "vv": {
+        "nodeType": "database",
+        "shape": "cylinder"
+      }
+    },
+    {
+      "id": "file-system",
+      "text": "File System\n(Audio files, Models)",
+      "type": "text",
+      "x": 344,
+      "y": 1207,
+      "width": 180,
+      "height": 80,
+      "color": "#8B5CF6",
+      "vv": {
+        "nodeType": "file-system",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "openai-api",
+      "text": "OpenAI Whisper API",
+      "type": "text",
+      "x": 1055,
+      "y": 1138,
+      "width": 180,
+      "height": 60,
+      "color": "#FB923C",
+      "vv": {
+        "nodeType": "cloud-api",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "groq-api",
+      "text": "Groq API",
+      "type": "text",
+      "x": 845,
+      "y": 1140,
+      "width": 180,
+      "height": 60,
+      "color": "#FB923C",
+      "vv": {
+        "nodeType": "cloud-api",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "elevenlabs-api",
+      "text": "ElevenLabs API",
+      "type": "text",
+      "x": 630,
+      "y": 1143,
+      "width": 180,
+      "height": 60,
+      "color": "#FB923C",
+      "vv": {
+        "nodeType": "cloud-api",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "posthog-analytics",
+      "text": "PostHog Analytics",
+      "type": "text",
+      "x": 1198,
+      "y": 386,
+      "width": 180,
+      "height": 60,
+      "color": "#FACC15",
+      "vv": {
+        "nodeType": "analytics",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "aptabase-analytics",
+      "text": "Aptabase Analytics",
+      "type": "text",
+      "x": 671,
+      "y": 389,
+      "width": 180,
+      "height": 60,
+      "color": "#FACC15",
+      "vv": {
+        "nodeType": "analytics",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "ui-package",
+      "text": "@epicenter/ui\n(shadcn-svelte)",
+      "type": "text",
+      "x": 918,
+      "y": 372,
+      "width": 180,
+      "height": 80,
+      "color": "#14B8A6",
+      "vv": {
+        "nodeType": "shared-lib",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "core-package",
+      "text": "@epicenter/hq\n(Core library)",
+      "type": "text",
+      "x": 919,
+      "y": 540,
+      "width": 180,
+      "height": 80,
+      "color": "#14B8A6",
+      "vv": {
+        "nodeType": "shared-lib",
+        "shape": "rectangle"
+      }
+    },
+    {
+      "id": "shared-package",
+      "text": "@epicenter/shared\n(Types & constants)",
+      "type": "text",
+      "x": 391,
+      "y": 380,
+      "width": 180,
+      "height": 80,
+      "color": "#14B8A6",
+      "vv": {
+        "nodeType": "shared-lib",
+        "shape": "rectangle"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "whispering-app",
+      "toNode": "ui-pages",
+      "color": "#A855F7",
+      "vv": {
+        "edgeType": "renders"
+      }
+    },
+    {
+      "id": "e2",
+      "fromNode": "ui-pages",
+      "toNode": "query-rpc",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "invokes"
+      }
+    },
+    {
+      "id": "e3",
+      "fromNode": "query-rpc",
+      "toNode": "transcription-service",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "invokes"
+      }
+    },
+    {
+      "id": "e4",
+      "fromNode": "query-rpc",
+      "toNode": "recorder-service",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "invokes"
+      }
+    },
+    {
+      "id": "e5",
+      "fromNode": "query-rpc",
+      "toNode": "db-service",
+      "color": "#10B981",
+      "vv": {
+        "edgeType": "queries"
+      }
+    },
+    {
+      "id": "e6",
+      "fromNode": "query-rpc",
+      "toNode": "settings-service",
+      "color": "#10B981",
+      "vv": {
+        "edgeType": "queries"
+      }
+    },
+    {
+      "id": "e7",
+      "fromNode": "transcription-service",
+      "toNode": "tauri-backend",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "invokes"
+      }
+    },
+    {
+      "id": "e8",
+      "fromNode": "recorder-service",
+      "toNode": "tauri-backend",
+      "color": "#3B82F6",
+      "vv": {
+        "edgeType": "invokes"
+      }
+    },
+    {
+      "id": "e9",
+      "fromNode": "transcription-service",
+      "toNode": "openai-api",
+      "color": "#FB923C",
+      "vv": {
+        "edgeType": "integrates"
+      }
+    },
+    {
+      "id": "e10",
+      "fromNode": "transcription-service",
+      "toNode": "groq-api",
+      "color": "#FB923C",
+      "vv": {
+        "edgeType": "integrates"
+      }
+    },
+    {
+      "id": "e11",
+      "fromNode": "transcription-service",
+      "toNode": "elevenlabs-api",
+      "color": "#FB923C",
+      "vv": {
+        "edgeType": "integrates"
+      }
+    },
+    {
+      "id": "e12",
+      "fromNode": "db-service",
+      "toNode": "local-db",
+      "color": "#7C3AED",
+      "vv": {
+        "edgeType": "persists"
+      }
+    },
+    {
+      "id": "e13",
+      "fromNode": "tauri-backend",
+      "toNode": "file-system",
+      "color": "#7C3AED",
+      "vv": {
+        "edgeType": "persists"
+      }
+    },
+    {
+      "id": "e14",
+      "fromNode": "whispering-app",
+      "toNode": "aptabase-analytics",
+      "color": "#FB923C",
+      "vv": {
+        "edgeType": "integrates"
+      }
+    },
+    {
+      "id": "e15",
+      "fromNode": "landing-site",
+      "toNode": "posthog-analytics",
+      "color": "#FB923C",
+      "vv": {
+        "edgeType": "integrates"
+      }
+    },
+    {
+      "id": "e16",
+      "fromNode": "whispering-app",
+      "toNode": "ui-package",
+      "color": "#14B8A6",
+      "vv": {
+        "edgeType": "depends"
+      }
+    },
+    {
+      "id": "e17",
+      "fromNode": "landing-site",
+      "toNode": "ui-package",
+      "color": "#14B8A6",
+      "vv": {
+        "edgeType": "depends"
+      }
+    },
+    {
+      "id": "e18",
+      "fromNode": "whispering-app",
+      "toNode": "shared-package",
+      "color": "#14B8A6",
+      "vv": {
+        "edgeType": "depends"
+      }
+    },
+    {
+      "id": "e19",
+      "fromNode": "ui-package",
+      "toNode": "core-package",
+      "color": "#14B8A6",
+      "vv": {
+        "edgeType": "depends"
+      }
+    }
+  ]
+}
