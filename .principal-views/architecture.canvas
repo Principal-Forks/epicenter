@@ -1,5 +1,5 @@
 {
-  "vv": {
+  "pv": {
     "name": "Epicenter Architecture",
     "version": "1.0.0"
   },
@@ -13,7 +13,7 @@
       "width": 200,
       "height": 80,
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "nodeType": "desktop-app",
         "shape": "rectangle"
       }
@@ -27,7 +27,7 @@
       "width": 200,
       "height": 80,
       "color": "#F97316",
-      "vv": {
+      "pv": {
         "nodeType": "web-app",
         "shape": "rectangle"
       }
@@ -41,7 +41,7 @@
       "width": 200,
       "height": 80,
       "color": "#A855F7",
-      "vv": {
+      "pv": {
         "nodeType": "page",
         "shape": "rectangle"
       }
@@ -55,7 +55,7 @@
       "width": 200,
       "height": 80,
       "color": "#10B981",
-      "vv": {
+      "pv": {
         "nodeType": "query-layer",
         "shape": "rectangle"
       }
@@ -69,7 +69,7 @@
       "width": 180,
       "height": 80,
       "color": "#06B6D4",
-      "vv": {
+      "pv": {
         "nodeType": "service",
         "shape": "rectangle"
       }
@@ -83,7 +83,7 @@
       "width": 180,
       "height": 80,
       "color": "#06B6D4",
-      "vv": {
+      "pv": {
         "nodeType": "service",
         "shape": "rectangle"
       }
@@ -97,7 +97,7 @@
       "width": 180,
       "height": 80,
       "color": "#06B6D4",
-      "vv": {
+      "pv": {
         "nodeType": "service",
         "shape": "rectangle"
       }
@@ -111,7 +111,7 @@
       "width": 180,
       "height": 80,
       "color": "#06B6D4",
-      "vv": {
+      "pv": {
         "nodeType": "service",
         "shape": "rectangle"
       }
@@ -125,7 +125,7 @@
       "width": 200,
       "height": 80,
       "color": "#EF4444",
-      "vv": {
+      "pv": {
         "nodeType": "rust-backend",
         "shape": "rectangle"
       }
@@ -139,7 +139,7 @@
       "width": 200,
       "height": 80,
       "color": "#7C3AED",
-      "vv": {
+      "pv": {
         "nodeType": "database",
         "shape": "cylinder"
       }
@@ -153,7 +153,7 @@
       "width": 180,
       "height": 80,
       "color": "#8B5CF6",
-      "vv": {
+      "pv": {
         "nodeType": "file-system",
         "shape": "rectangle"
       }
@@ -167,7 +167,7 @@
       "width": 180,
       "height": 60,
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "nodeType": "cloud-api",
         "shape": "rectangle"
       }
@@ -181,7 +181,7 @@
       "width": 180,
       "height": 60,
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "nodeType": "cloud-api",
         "shape": "rectangle"
       }
@@ -195,7 +195,7 @@
       "width": 180,
       "height": 60,
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "nodeType": "cloud-api",
         "shape": "rectangle"
       }
@@ -209,7 +209,7 @@
       "width": 180,
       "height": 60,
       "color": "#FACC15",
-      "vv": {
+      "pv": {
         "nodeType": "analytics",
         "shape": "rectangle"
       }
@@ -223,7 +223,7 @@
       "width": 180,
       "height": 60,
       "color": "#FACC15",
-      "vv": {
+      "pv": {
         "nodeType": "analytics",
         "shape": "rectangle"
       }
@@ -237,7 +237,7 @@
       "width": 180,
       "height": 80,
       "color": "#14B8A6",
-      "vv": {
+      "pv": {
         "nodeType": "shared-lib",
         "shape": "rectangle"
       }
@@ -251,7 +251,7 @@
       "width": 180,
       "height": 80,
       "color": "#14B8A6",
-      "vv": {
+      "pv": {
         "nodeType": "shared-lib",
         "shape": "rectangle"
       }
@@ -265,7 +265,7 @@
       "width": 180,
       "height": 80,
       "color": "#14B8A6",
-      "vv": {
+      "pv": {
         "nodeType": "shared-lib",
         "shape": "rectangle"
       }
@@ -277,7 +277,7 @@
       "fromNode": "whispering-app",
       "toNode": "ui-pages",
       "color": "#A855F7",
-      "vv": {
+      "pv": {
         "edgeType": "renders"
       }
     },
@@ -286,7 +286,7 @@
       "fromNode": "ui-pages",
       "toNode": "query-rpc",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "invokes"
       }
     },
@@ -295,7 +295,7 @@
       "fromNode": "query-rpc",
       "toNode": "transcription-service",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "invokes"
       }
     },
@@ -304,7 +304,7 @@
       "fromNode": "query-rpc",
       "toNode": "recorder-service",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "invokes"
       }
     },
@@ -313,7 +313,7 @@
       "fromNode": "query-rpc",
       "toNode": "db-service",
       "color": "#10B981",
-      "vv": {
+      "pv": {
         "edgeType": "queries"
       }
     },
@@ -322,7 +322,7 @@
       "fromNode": "query-rpc",
       "toNode": "settings-service",
       "color": "#10B981",
-      "vv": {
+      "pv": {
         "edgeType": "queries"
       }
     },
@@ -331,7 +331,7 @@
       "fromNode": "transcription-service",
       "toNode": "tauri-backend",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "invokes"
       }
     },
@@ -340,7 +340,7 @@
       "fromNode": "recorder-service",
       "toNode": "tauri-backend",
       "color": "#3B82F6",
-      "vv": {
+      "pv": {
         "edgeType": "invokes"
       }
     },
@@ -349,7 +349,7 @@
       "fromNode": "transcription-service",
       "toNode": "openai-api",
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "edgeType": "integrates"
       }
     },
@@ -358,7 +358,7 @@
       "fromNode": "transcription-service",
       "toNode": "groq-api",
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "edgeType": "integrates"
       }
     },
@@ -367,7 +367,7 @@
       "fromNode": "transcription-service",
       "toNode": "elevenlabs-api",
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "edgeType": "integrates"
       }
     },
@@ -376,7 +376,7 @@
       "fromNode": "db-service",
       "toNode": "local-db",
       "color": "#7C3AED",
-      "vv": {
+      "pv": {
         "edgeType": "persists"
       }
     },
@@ -385,7 +385,7 @@
       "fromNode": "tauri-backend",
       "toNode": "file-system",
       "color": "#7C3AED",
-      "vv": {
+      "pv": {
         "edgeType": "persists"
       }
     },
@@ -394,7 +394,7 @@
       "fromNode": "whispering-app",
       "toNode": "aptabase-analytics",
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "edgeType": "integrates"
       }
     },
@@ -403,7 +403,7 @@
       "fromNode": "landing-site",
       "toNode": "posthog-analytics",
       "color": "#FB923C",
-      "vv": {
+      "pv": {
         "edgeType": "integrates"
       }
     },
@@ -412,7 +412,7 @@
       "fromNode": "whispering-app",
       "toNode": "ui-package",
       "color": "#14B8A6",
-      "vv": {
+      "pv": {
         "edgeType": "depends"
       }
     },
@@ -421,7 +421,7 @@
       "fromNode": "landing-site",
       "toNode": "ui-package",
       "color": "#14B8A6",
-      "vv": {
+      "pv": {
         "edgeType": "depends"
       }
     },
@@ -430,7 +430,7 @@
       "fromNode": "whispering-app",
       "toNode": "shared-package",
       "color": "#14B8A6",
-      "vv": {
+      "pv": {
         "edgeType": "depends"
       }
     },
@@ -439,7 +439,7 @@
       "fromNode": "ui-package",
       "toNode": "core-package",
       "color": "#14B8A6",
-      "vv": {
+      "pv": {
         "edgeType": "depends"
       }
     }
