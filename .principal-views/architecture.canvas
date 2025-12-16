@@ -276,6 +276,8 @@
       "id": "e1",
       "fromNode": "whispering-app",
       "toNode": "ui-pages",
+      "fromSide": "left",
+      "toSide": "top",
       "color": "#A855F7",
       "pv": {
         "edgeType": "renders"
@@ -285,6 +287,8 @@
       "id": "e2",
       "fromNode": "ui-pages",
       "toNode": "query-rpc",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#3B82F6",
       "pv": {
         "edgeType": "invokes"
@@ -294,6 +298,8 @@
       "id": "e3",
       "fromNode": "query-rpc",
       "toNode": "transcription-service",
+      "fromSide": "right",
+      "toSide": "top",
       "color": "#3B82F6",
       "pv": {
         "edgeType": "invokes"
@@ -303,6 +309,8 @@
       "id": "e4",
       "fromNode": "query-rpc",
       "toNode": "recorder-service",
+      "fromSide": "right",
+      "toSide": "top",
       "color": "#3B82F6",
       "pv": {
         "edgeType": "invokes"
@@ -312,6 +320,8 @@
       "id": "e5",
       "fromNode": "query-rpc",
       "toNode": "db-service",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#10B981",
       "pv": {
         "edgeType": "queries"
@@ -321,6 +331,8 @@
       "id": "e6",
       "fromNode": "query-rpc",
       "toNode": "settings-service",
+      "fromSide": "left",
+      "toSide": "top",
       "color": "#10B981",
       "pv": {
         "edgeType": "queries"
@@ -330,6 +342,8 @@
       "id": "e7",
       "fromNode": "transcription-service",
       "toNode": "tauri-backend",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#3B82F6",
       "pv": {
         "edgeType": "invokes"
@@ -339,6 +353,8 @@
       "id": "e8",
       "fromNode": "recorder-service",
       "toNode": "tauri-backend",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#3B82F6",
       "pv": {
         "edgeType": "invokes"
@@ -348,6 +364,8 @@
       "id": "e9",
       "fromNode": "transcription-service",
       "toNode": "openai-api",
+      "fromSide": "right",
+      "toSide": "top",
       "color": "#FB923C",
       "pv": {
         "edgeType": "integrates"
@@ -357,6 +375,8 @@
       "id": "e10",
       "fromNode": "transcription-service",
       "toNode": "groq-api",
+      "fromSide": "right",
+      "toSide": "top",
       "color": "#FB923C",
       "pv": {
         "edgeType": "integrates"
@@ -366,6 +386,8 @@
       "id": "e11",
       "fromNode": "transcription-service",
       "toNode": "elevenlabs-api",
+      "fromSide": "right",
+      "toSide": "top",
       "color": "#FB923C",
       "pv": {
         "edgeType": "integrates"
@@ -375,6 +397,8 @@
       "id": "e12",
       "fromNode": "db-service",
       "toNode": "local-db",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#7C3AED",
       "pv": {
         "edgeType": "persists"
@@ -384,6 +408,8 @@
       "id": "e13",
       "fromNode": "tauri-backend",
       "toNode": "file-system",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#7C3AED",
       "pv": {
         "edgeType": "persists"
@@ -393,6 +419,8 @@
       "id": "e14",
       "fromNode": "whispering-app",
       "toNode": "aptabase-analytics",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#FB923C",
       "pv": {
         "edgeType": "integrates"
@@ -402,6 +430,8 @@
       "id": "e15",
       "fromNode": "landing-site",
       "toNode": "posthog-analytics",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#FB923C",
       "pv": {
         "edgeType": "integrates"
@@ -411,6 +441,8 @@
       "id": "e16",
       "fromNode": "whispering-app",
       "toNode": "ui-package",
+      "fromSide": "right",
+      "toSide": "left",
       "color": "#14B8A6",
       "pv": {
         "edgeType": "depends"
@@ -420,6 +452,8 @@
       "id": "e17",
       "fromNode": "landing-site",
       "toNode": "ui-package",
+      "fromSide": "bottom",
+      "toSide": "right",
       "color": "#14B8A6",
       "pv": {
         "edgeType": "depends"
@@ -429,6 +463,8 @@
       "id": "e18",
       "fromNode": "whispering-app",
       "toNode": "shared-package",
+      "fromSide": "bottom",
+      "toSide": "right",
       "color": "#14B8A6",
       "pv": {
         "edgeType": "depends"
@@ -438,6 +474,8 @@
       "id": "e19",
       "fromNode": "ui-package",
       "toNode": "core-package",
+      "fromSide": "bottom",
+      "toSide": "top",
       "color": "#14B8A6",
       "pv": {
         "edgeType": "depends"
